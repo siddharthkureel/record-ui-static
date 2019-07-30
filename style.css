@@ -1,0 +1,32 @@
+.btn{
+    position: fixed;
+    margin: 20px;
+    background-color: white; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    top:0;
+}
+.btn-blue{
+    color: rgb(54, 141, 255);
+    border: 2px solid rgb(54, 141, 255);
+    display: none;
+}
+.btn-red{
+    color: red;
+    border: 2px solid red;
+}
+.btn-black{
+    display: none;
+    color: black;
+    border: 2px solid black;
+}
+#player{
+    display: flex;
+    justify-content: center;
+}
